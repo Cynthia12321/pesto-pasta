@@ -1,0 +1,45 @@
+body{
+    background-color: #e9ffdf;
+    color: #000000;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    padding: 50px;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+.photo{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.site-header {
+    background-color: #ffffff;
+    border: 7px dotted rgba(253, 235, 66, 0.874);
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+.title{
+    text-shadow: 2px 1px 5px rgba(67,185,113,0.48);
+    font-size: 50px;
+}
+h1:hover {
+  color: rgb(24, 68, 14);
+  text-decoration: underline;
+}
+.card{
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 30px 0;
+    border-radius: 15px;
+    border: 7px dotted rgba(253, 235, 66, 0.874);
+}
+@media (max-width: 600px) {
+    body{
+        background-color:#ffebdb
+
+    }
+}
